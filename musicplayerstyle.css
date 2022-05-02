@@ -1,0 +1,43 @@
+	.musicplayer{
+	    background-color:{color:Music Player Background Color};
+	    padding-bottom: 5px;
+	    padding-top: 1px;
+	    border-radius: 25px;
+	    {block:IfMusicOpacity}
+        opacity: 0.7;
+        {/block:IfMusicOpacity}
+	}
+	.songname{
+	    color:white;
+	    font-size: 10px;
+	    text-align: center;
+	    color:{color:Music Player Title Color}; 
+	}
+	
+	.previous{
+		font-size: 10px;
+		background-color:black;
+		border-color:black;
+		border-radius: 25px;
+		font-style:bold;
+	}
+	.play{
+		font-size: 10px;
+		background-color:black;
+		border-color:black;
+		border-radius: 25px;
+		font-style:bold;
+	}
+	.pause{
+		font-size: 10px;
+		background-color:black;
+		border-color:black;
+		border-radius: 25px;
+		font-style:bold;
+	}
+	.next{
+		font-size: 10px;
+		background-color:black;
+		border-color:black;
+		border-radius: 25px;
+		font-style:bold;
