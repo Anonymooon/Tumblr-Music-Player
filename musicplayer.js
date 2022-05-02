@@ -1,5 +1,3 @@
-	<script>
-
 	let audio = new Audio(songs[0].url);
 	let previousButton = document.querySelector('.previous')
 	let playButton = document.querySelector('.play')
@@ -82,5 +80,3 @@
 	previousButton.addEventListener('click', function(){
 		previousSong()
 	})
-	
-	</script>
