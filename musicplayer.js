@@ -20,7 +20,7 @@
 	
 	
     audio.addEventListener('ended', () => {
-      audio.currentTime = 0;
+      //audio.currentTime = 0;
       nextSong()
     });
 
