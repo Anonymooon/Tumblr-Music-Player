@@ -21,7 +21,12 @@
 	pauseButton.addEventListener('click', function(){
 		audio.pause()
 	})
-	
+	{block:MusicStartsWithPage}
+	window.onload = function() {
+		audio.play();
+		song.innerHTML = currentSong().songName 
+	}
+	{/block:MusicStartsWithPage}
     audio.addEventListener('ended', () => {
       audio.currentTime = 0;
       nextSong()
