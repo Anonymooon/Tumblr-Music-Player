@@ -22,10 +22,6 @@
 		audio.pause()
 	})
 	
-	window.onload = function() {
-		audio.play();
-		song.innerHTML = currentSong().songName 
-	}
 	
     audio.addEventListener('ended', () => {
       audio.currentTime = 0;
